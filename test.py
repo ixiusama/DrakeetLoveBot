@@ -1,11 +1,11 @@
 prefix = ' '
 # text = '123drakeet'
-text = '123 drakeet'
+text = '123 xiaoyuebot'
 
-m = 'drakeet'
+m = 'xiaoyuebot'
 if (prefix + m) in text:
-    text = text.replace(m, '@drakeet' + ' ')
+    text = text.replace(m, '@xiaoyuebot' + ' ')
 else:
-    text = text.replace(m, prefix + '@drakeet' + ' ')
+    text = text.replace(m, prefix + '@xiaoyuebot' + ' ')
 
 print(text)
